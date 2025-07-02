@@ -9,7 +9,22 @@
 
 <body>
 	<div class="form__container">
-		<form></form>
+		<form novalidate>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required>
+
+			<label for="country">Country</label>
+			<input type="text" name="country" id="country" required>
+
+			<label for="postal">Postal Code</label>
+			<input type="text" name="postal" id="postal" required>
+
+			<label for="password">Password</label>
+			<input type="text" name="password" id="password" required>
+
+			<label for="password-confirm">Confirm Password</label>
+			<input type="text" name="password-confirm" id="password-confirm" required>
+		</form>
 	</div>
 </body>
 
