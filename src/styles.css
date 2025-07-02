@@ -1,5 +1,37 @@
 * {
 	padding: 0;
-	marign: 0;
+	margin: 0;
 	box-sizing: border-box;
+	font-size: 1.3rem;
+	background-color: #1B263B;
+	color: #E0E1DD;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.form__container {
+	border: 2px solid #E0E1DD;
+	width: 50%;
+	height: 50%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	background-color: #E0E1DD;
+	color: #1B263B;
+}
+
+button {
+	background-color: #E0E1DD;
+	color: #1B263B;
+	cursor: pointer;
 }
